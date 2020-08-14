@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Plasma_Receiver">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background1"
+        android:gravity="center">
+
+    <ImageView
+        android:layout_marginBottom="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bloodreceive"
+        />
+    <EditText
+        android:id="@+id/ReceiverUsernameId"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Username"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/ReceiverPhoneNumberId"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Phone Number"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/ReceiverBloodGroupId"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Blood Group"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/ReceiverEmailId"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Email Id"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/ReceiverAddressId"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Address"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/ReceiverPasswordId"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Password"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/ReceiverSubmitButtonId"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginBottom="30dp"
+        android:text="Submit"
+        android:textColor="#FF0D3D"
+        android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

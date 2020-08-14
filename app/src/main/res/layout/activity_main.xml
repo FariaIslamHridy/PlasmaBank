@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/bloodpic" />
+
+    <EditText
+        android:id="@+id/UsernameId"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Username"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/PasswordId"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Password"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Button
+        android:id="@+id/LoginButtonId"
+        android:text="Login"
+        android:textColor="#FF0D3D"
+        android:textSize="20sp"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#F5F5F0"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Or"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/RegisterId"
+        android:text="Register"
+        android:textColor="#FF0D3D"
+        android:textSize="20sp"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+
+</LinearLayout>

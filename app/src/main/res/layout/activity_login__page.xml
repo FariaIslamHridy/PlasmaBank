@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".Login_Page">
+    <ImageView
+        android:layout_marginBottom="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bloodpic"
+        />
+    <Button
+        android:id="@+id/PlasmaReceiverId"
+        android:text="Need Plasma"
+        android:textColor="#FF0D3D"
+        android:textSize="20sp"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/DonorId"
+        android:text="Be a Donor"
+        android:textColor="#FF0D3D"
+        android:textSize="20sp"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/InformationId"
+        android:text="Information"
+        android:textColor="#FF0D3D"
+        android:textSize="20sp"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+</LinearLayout>
+

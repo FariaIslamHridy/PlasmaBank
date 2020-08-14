@@ -1,0 +1,37 @@
+<resources>
+
+<string name="app_name">Plasma_Bank</string>
+<string name="Medicines">1. Tab. Scabo-6mg \n
+or Tab. Ivera 12mg \n\n
+
+2. Tab. Fexo-120mg \n
+     1+0+0 \n\n
+
+3. Tab. Reversair-10mg \n
+0+0+1 \n\n
+
+4. Tab. Doxiva 200mg 1+0+1 \n\n
+
+5. Tab. Zimax 500mg \n
+     0+0+1 \n
+or Cap. Doxicap-100mg\n
+         1+0+1 \n\n
+
+6. Cap. D-Rise-40000 IU \n
+0+0+1 \n\n
+
+7. Cap. Retinol Forte 2- Lac IU 50,000IU \n\n
+
+8. Tab. Ascobex 250 mg \n
+1+0+1. \n\n
+
+9. Tab. Bicozin \n
+1+0+1 \n\n
+
+* 6-9 for all but 1-9 only for Covid positive patient.\n
+
+    </string>
+
+
+
+</resources>
