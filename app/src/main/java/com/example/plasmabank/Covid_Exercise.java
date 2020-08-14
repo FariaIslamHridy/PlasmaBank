@@ -11,5 +11,7 @@ public class Covid_Exercise extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_covid__exercise);
         this.setTitle("Covid Exercise Page");
+        
+        // ami development shikhtechi
     }
 }
