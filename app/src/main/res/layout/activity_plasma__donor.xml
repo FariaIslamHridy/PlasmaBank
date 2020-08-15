@@ -46,19 +46,6 @@
         android:layout_height="wrap_content"
         />
     <EditText
-        android:id="@+id/DonorBloodGroupId"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:drawableLeft="@drawable/ic_action_password"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:hint="Blood Group"
-        android:textColor="#FFFFFFFF"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
-    <EditText
         android:id="@+id/DonorEmailId"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -98,6 +85,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
+
+        <Spinner
+            android:id="@+id/DonorSpinnerId"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:entries="@array/Blood_Groups"
+            android:hint="Blood Group"
+            android:textColor="#FFFFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </Spinner>
+
+
     <Button
         android:id="@+id/DonorSubmitButtonId"
         android:text="Submit"
@@ -107,6 +111,7 @@
         android:layout_height="30dp"
         android:background="@drawable/buttonshape"
         android:shadowColor="#A8A8A8"
+        android:layout_marginBottom="30dp"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
