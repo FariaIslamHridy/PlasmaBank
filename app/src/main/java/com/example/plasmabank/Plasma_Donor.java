@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.security.Signature;
 import java.util.ArrayDeque;
@@ -29,7 +30,7 @@ public class Plasma_Donor extends AppCompatActivity {
     private EditText DonorPassword;
     Spinner DonorSpinner;
 
-    DatabaseReference DatabaseReference ;
+    DatabaseReference databaseReference ;
     private Signature fireBaseDatabase;
     private Object Plasma_Donor_Modal;
 
@@ -47,12 +48,7 @@ public class Plasma_Donor extends AppCompatActivity {
         DonorPassword = (EditText) findViewById(R.id.DonorPasswordId);
         DonorSpinner = (Spinner) findViewById(R.id.DonorSpinnerId);
 
-
-        DatabaseReference = fireBaseDatabase.getInstance().getReference();
-
-
-
-
+        databaseReference = FirebaseDatabase.getInstance().getReference();
         submitButton = (Button)findViewById(R.id.DonorSubmitButtonId);
 
         submitButton.setOnClickListener(new View.OnClickListener() {
@@ -61,7 +57,7 @@ public class Plasma_Donor extends AppCompatActivity {
                 DatabaseReference dataBaseReference = null;
                 String id = dataBaseReference.push().getKey();
                 Plasma_Donor_Modal donorModal = new Plasma_Donor_Modal(id, DonorName.getText().toString(),DonorPhone.getText().toString(), DonorEmail.getText().toString(), DonorAddress.getText().toString(),DonorPassword.getText().toString(), DonorSpinner.getSelectedItem().toString());
-                Task<Void> setValue = dataBaseReference.child(id) dataBaseReference.setValue();
+                Task<Void> setValue = dataBaseReference.child(id).setValue("");
 
             }
         });

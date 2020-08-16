@@ -96,6 +96,8 @@
             android:entries="@array/Blood_Groups"
             android:hint="Blood Group"
             android:textColor="#FFFFFFFF"
+            android:paddingLeft="10dp"
+            android:defaultFocusHighlightEnabled="true"
             android:textSize="16sp"
             android:textStyle="bold">
 

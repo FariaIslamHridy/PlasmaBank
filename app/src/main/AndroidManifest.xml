@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Plasma_Receive_Modal"></activity>
         <activity android:name=".Covid_Experience" />
         <activity android:name=".Covid_Exercise" />
         <activity android:name=".Covid_Food" />
@@ -21,7 +22,6 @@
         <activity android:name=".Plasma_Donor" />
         <activity android:name=".Plasma_Receiver" />
         <activity android:name=".Registration_Page" />
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
