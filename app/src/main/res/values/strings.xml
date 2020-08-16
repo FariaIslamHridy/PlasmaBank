@@ -49,4 +49,30 @@ or Cap. Doxicap-100mg\n
     </string>
 
 
+    <string name="covid_exercises">
+
+    As new COVID-19 cases continue to emerge in the WHO European Region, many healthy individuals are being requested to stay at home in self-quarantine. In some countries, fitness centres and other locations where individuals are normally active, will remain temporarily closed. Staying at home for prolonged periods of time can pose a significant challenge for remaining physically active. Sedentary behaviour and low levels of physical activity can have negative effects on the health, well-being and quality of life of individuals. Self-quarantine can also cause additional stress and challenge the mental health of citizens. Physical activity and relaxation techniques can be valuable tools to help you remain calm and continue to protect your health during this time.\n\n\n
+        WHO recommends 150 minutes of moderate-intensity or 75 minutes of vigorous-intensity physical activity per week, or a combination of both. These recommendations can still be achieved even at home, with no special equipment and with limited space. The following are some tips on how to stay active and reduce sedentary behaviour while at home in self-quarantine:\n\n\n
+        Take short active breaks during the day:\n\nShort bouts of physical activity add up to the weekly recommendations. You may use the suggested exercises below as inspiration to be active every day. Dancing, playing with children, and performing domestic chores such as cleaning and gardening are other means to stay active at home.\n\n\n
+        Follow an online exercise class:\n\nTake advantage of the wealth of online exercise classes. Many of these are free and can be found on YouTube. If you have no experience performing these exercises, be cautious and aware of your own limitations.\n\n\n
+        Walk:\n\nEven in small spaces, walking around or walking on the spot, can help you remain active. If you have a call, stand or walk around your home while you speak, instead of sitting down. If you decide to go outside to walk or exercise, be sure to maintain at least a 1-meter distance from other people.\n\n\n
+        Stand up:\n\nReduce your sedentary time by standing up whenever possible. Ideally, aim to interrupt sitting and reclining time every 30 minutes. Consider setting up a standing desk by using a high table or stacking a pile of books or other materials, to continue working while standing. During sedentary leisure time prioritize cognitively stimulating activities, such as reading, board games, and puzzles.\n\n\n
+        Relax:\n\nMeditation and deep breaths can help you remain calm. A few examples of relaxation techniques are available below for inspiration.\n\n\n
+        For optimal health, it is also important to remember to eat healthily and stay hydrated. WHO recommends drinking water instead of sugar-sweetened beverages. Limit or avoid alcoholic beverages for adults and strictly avoid these in young people, and pregnant and breastfeeding women, or for other health reasons. Ensure plenty of fruits and vegetables, and limit the intake of salt, sugar and fat. Prefer whole grains rather than refined foods. For more guidance on how to eat healthily during self-quarantine, please see the Food and nutrition tips during self-quarantine, prepared by WHO/Europe.\n\n\n
+
+    </string>
+
+
+
+    <string name="covid_foods">
+
+    As countries are taking stronger measures to contain the spread of COVID-19, self-quarantine and the temporary closing of businesses may affect normal food-related practices. Healthy individuals, as well as those showing acute respiratory disease symptoms, are being requested to stay at home. In some countries, restaurants and take-away offers are being limited and some fresh items are becoming less available.\n\n
+
+    Good nutrition is crucial for health, particularly in times when the immune system might need to fight back. Limited access to fresh foods may compromise opportunities to continue eating a healthy and varied diet. It can also potentially lead to an increased consumption of highly processed foods, which tend to be high in fats, sugars and salt. Nonetheless, even with few and limited ingredients, one can continue eating a diet that supports good health.\n\n
+
+    For optimal health, it is also important to remain physically active. To support healthy individuals in staying physically active while at home, WHO/Europe has developed specific guidance for periods of quarantine, including tips and examples of home-based exercises.
+
+    </string>
+
+
 </resources>

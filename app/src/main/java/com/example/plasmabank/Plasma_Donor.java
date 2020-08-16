@@ -62,5 +62,5 @@ public class Plasma_Donor extends AppCompatActivity {
             }
         });
 
-    }
+        }
 }
